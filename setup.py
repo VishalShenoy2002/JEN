@@ -5,6 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="JenAssistant",
+    version="0.0.1",
     author="Vishal Balakrishna Shenoy",
     author_email="vishal.bshenoy@gmail.com",
     description="A package which can be used for virtual assistants",
