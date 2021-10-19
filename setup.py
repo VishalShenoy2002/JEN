@@ -10,9 +10,9 @@ setuptools.setup(
     description="A package which can be used for virtual assistants",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/VishalShenoy2002/Assist",
+    url="https://github.com/VishalShenoy2002/JEN",
     project_urls={
-        "Bug Tracker": "https://github.com/VishalShenoy2002/Assist/issues",
+        "Bug Tracker": "https://github.com/VishalShenoy2002/JEN/issues",
     },
     classifiers=[
         "Programming Language :: Python :: 3",
