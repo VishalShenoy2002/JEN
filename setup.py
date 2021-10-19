@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="Jen",
+    name="JenAssistant",
     author="Vishal Balakrishna Shenoy",
     author_email="vishal.bshenoy@gmail.com",
     description="A package which can be used for virtual assistants",
@@ -22,5 +22,6 @@ setuptools.setup(
     package_dir={"": "src"},
     packages=setuptools.find_packages(where="src"),
     install_requires=["pyttsx3","SpeechRecognition",'pyautogui',"wikipedia"],
+    keywords=['python', 'virtual assistant', 'assistant', 'Jen', 'Jen Assistant', 'JEN'],
     python_requires=">=3.6",
 )
