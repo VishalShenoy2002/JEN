@@ -22,7 +22,7 @@ setuptools.setup(
     ],
     package_dir={"": "src"},
     packages=setuptools.find_packages(where="src"),
-    install_requires=["pyttsx3","SpeechRecognition",'pyautogui',"wikipedia","PyAudio",'werkzeug~=0.16.1'],
+    install_requires=["pyttsx3","SpeechRecognition",'pyautogui','werkzeug','pipwin'],
     keywords=['python', 'virtual assistant', 'assistant', 'Jen', 'Jen Assistant', 'JEN'],
     python_requires=">=3.6",
 )
