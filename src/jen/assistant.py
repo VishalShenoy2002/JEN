@@ -121,12 +121,12 @@ class SpeechRecognisingAssistant:
         with sr.Microphone() as source:
 
             print("Listening...")
-            r.pause_threshold=0.5
-            audio=r.listen(source)
+            self.recognizer.pause_threshold=0.5
+            audio=self.recognizer.listen(source)
 
         try:
 
-            query=r.recognize_google(audio,language='en-in')
+            query=self.recognizer.recognize_google(audio,language='en-in')
             print('Did you say : {}'.format(query))
 
         except Exception :
@@ -233,12 +233,12 @@ class TBSRAssistant:
             with sr.Microphone() as source:
 
                 print("Listening...")
-                r.pause_threshold=0.5
-                audio=r.listen(source)
+                self.recognizer.pause_threshold=0.5
+                audio=self.recognizer.listen(source)
 
             try:
 
-                query=r.recognize_google(audio,language='en-in')
+                query=self.recognizer.recognize_google(audio,language='en-in')
                 print('Did you say : {}'.format(query))
 
             except Exception :
