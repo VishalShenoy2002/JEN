@@ -1,6 +1,6 @@
-# JEN
+# JenAssistant
 
-## What is JEN?
+## What is JenAssistant?
 Jen is a package which has a list of different types of assistants which can help you in virtual assistant projects.
 
 ## Sample Code
