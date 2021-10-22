@@ -34,3 +34,13 @@ if "calendar" in command:
     year=assistant.display_response("Enter Year :{}".format(input()))
     display_cli_calendar(year)
 ```
+
+## Error Handling
+
+Here if we get a PyAudio Error then import the configure module
+
+```python
+from jen import configure
+
+configure.configure_pyaudio()
+```
