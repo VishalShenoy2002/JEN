@@ -31,8 +31,8 @@ assistant=SpeechRecognisingAssistant('Bot')
 command=assistant.listen_to_the_user()
 
 if "calendar" in command:
-    year=assistant.display_response("Enter Year :{}".format(input()))
-    display_cli_calendar(year)
+    year=assistant.take_input("Enter Year :")
+    display_cli_calendar(int(year))
 ```
 
 ## Error Handling

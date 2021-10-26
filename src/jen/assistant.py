@@ -14,6 +14,22 @@ class SimpleAssistant:
         self.name_of_assistant=name_of_assistant
         print("Hi I am {} How may I help you".format(self.name_of_assistant))
 
+
+    def take_input(self,prompt):
+        '''
+        The take_input function as the name suggests will take the input from the user.
+        it thats one parameter that is prompt. It return the input while will be in 
+        string datatype (str).
+
+        Param: prompt
+        --------------
+            The prompt parameter as the name suggests is to display the prompt message 
+            to the user.For Example: if you want to prompt "Enter Your Name:" then the prompt 
+            parameter should be set to the value.
+        '''
+
+        return input('{}'.format(prompt))
+
     def display_response(self,response):
 
         '''
@@ -36,9 +52,10 @@ class TalkbackAssistant:
     '''
     The TalkbackAssistant class as the name suggests has a talkback feature in it.
     It can do three things:
-        1. Display the Response
-        2. Speak the Response
-        3. Speak and Display the Response
+        1.Take the Input
+        2. Display the Response
+        3. Speak the Response
+        4. Speak and Display the Response
     '''
 
     def __init__(self,name_of_assistant):
@@ -47,6 +64,21 @@ class TalkbackAssistant:
         self.engine=pyttsx3.init('sapi5')
         self.voices=self.engine.getProperty('voices')
         self.engine.setProperty('voices',self.voices[0].id)
+
+    def take_input(self,prompt):
+        '''
+        The take_input function as the name suggests will take the input from the user.
+        it thats one parameter that is prompt. It return the input while will be in 
+        string datatype (str).
+
+        Param: prompt
+        --------------
+            The prompt parameter as the name suggests is to display the prompt message 
+            to the user.For Example: if you want to prompt "Enter Your Name:" then the prompt 
+            parameter should be set to the value.
+        '''
+
+        return input('{}'.format(prompt))
 
     def display_response(self,response):
 
@@ -111,6 +143,21 @@ class SpeechRecognisingAssistant:
         self.name_of_assistant=name_of_assistant
         self.recognizer=sr.Recognizer()
 
+    def take_input(self,prompt):
+        '''
+        The take_input function as the name suggests will take the input from the user.
+        it thats one parameter that is prompt. It return the input while will be in 
+        string datatype (str).
+
+        Param: prompt
+        --------------
+            The prompt parameter as the name suggests is to display the prompt message 
+            to the user.For Example: if you want to prompt "Enter Your Name:" then the prompt 
+            parameter should be set to the value.
+        '''
+
+        return input('{}'.format(prompt))
+
     def listen_to_the_user(self):
 
         '''
@@ -170,6 +217,21 @@ class TBSRAssistant:
         self.voices=self.engine.getProperty('voices')
         self.engine.setProperty('voices',self.voices[0].id)
         self.recognizer=sr.Recognizer()
+
+    def take_input(self,prompt):
+        '''
+        The take_input function as the name suggests will take the input from the user.
+        it thats one parameter that is prompt. It return the input while will be in 
+        string datatype (str).
+
+        Param: prompt
+        --------------
+            The prompt parameter as the name suggests is to display the prompt message 
+            to the user.For Example: if you want to prompt "Enter Your Name:" then the prompt 
+            parameter should be set to the value.
+        '''
+
+        return input('{}'.format(prompt))
 
 
     def display_response(self,response):
