@@ -47,5 +47,3 @@ class DeccanHerald:
 
         return full_news
 
-d=DeccanHerald().getHeadlines()
-print(d)

@@ -1,0 +1,7 @@
+pyttsx3
+SpeechRecognition
+pyautogui
+werkzeug
+pipwin
+requests
+beautifulsoup4

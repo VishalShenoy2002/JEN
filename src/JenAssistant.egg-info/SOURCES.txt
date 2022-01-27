@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+setup.py
+src/JenAssistant.egg-info/PKG-INFO
+src/JenAssistant.egg-info/SOURCES.txt
+src/JenAssistant.egg-info/dependency_links.txt
+src/JenAssistant.egg-info/requires.txt
+src/JenAssistant.egg-info/top_level.txt
+src/jen/__init__.py
+src/jen/assistant.py
+src/jen/configure.py
+src/jen/functions.py
+src/jen/news.py
